@@ -25,6 +25,8 @@ MODEL_REGISTRY = {
     "EleutherAI/gpt-neo-2.7B": GPTNeoForCausalLM,
     "EleutherAI/gpt-j-6B": GPTJForCausalLM,
     "EleutherAI/gpt-neox-20b": GPTNeoXForCausalLM,
+    "facebook/opt-125m": OPTForCausalLM,
+    "facebook/opt-350m": OPTForCausalLM,
     "facebook/opt-1.3b": OPTForCausalLM,
     "facebook/opt-2.7b": OPTForCausalLM,
     "facebook/opt-6.7b": OPTForCausalLM,
