@@ -1,4 +1,4 @@
-"""OpenAI client."""
+"""OPT client."""
 import logging
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
@@ -38,7 +38,6 @@ class OPTClient(Client):
 
     def close(self) -> None:
         """Close the client."""
-        pass
 
     def get_model_params(self) -> Dict:
         """
